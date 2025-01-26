@@ -1,0 +1,23 @@
+.mainheader::before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 5px;
+  background-color: white;
+  left: 15%;
+  bottom: 0px;
+}
+
+.mainheader::after {
+  /* fontawesome */
+  content: "\f005";
+  font-family: "Font Awesome 5 Free";
+  /* font-weight: bold; */
+
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  padding: 4px;
+  background-color: #1abc9c;
+  transform: translateX(-50%);
+}
